@@ -1,0 +1,8 @@
+{
+	"name": "pdx/pbot-theme",
+	"version": "0.1.0",
+	"dist": {
+			"url": "https://www.github.com/mike-mcdonald/pbot-theme",
+			"type": "git"
+	}
+}
