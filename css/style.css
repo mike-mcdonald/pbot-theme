@@ -4210,7 +4210,7 @@ tbody.collapse.in {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #fff;
+  color: #777777;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -4222,7 +4222,7 @@ tbody.collapse.in {
     top: -1px; }
 
 a.label:hover, a.label:focus {
-  color: #fff;
+  color: #777777;
   text-decoration: none;
   cursor: pointer; }
 
