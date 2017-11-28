@@ -5991,7 +5991,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
       opacity: 0; }
   .select-wrapper:after {
     color: #337ab7;
-    content: 'Γû╝';
+    content: '\25BC';
     font-style: normal;
     font-weight: 400;
     line-height: 1;
