@@ -6312,6 +6312,21 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed {
       background: #337ab7;
       color: #fff; }
 
+@media print {
+  header,
+  footer,
+  nav {
+    display: none; }
+
+  a[href]:after {
+    content: ""; }
+
+  .alert {
+    display: none; }
+
+  .region.region-content,
+  .field {
+    page-break-inside: avoid; } }
 ol, ul {
   padding-left: 1.5em; }
   .popover ol:last-child, .popover ul:last-child {
@@ -6345,12 +6360,5 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
-
-@media print {
-  header, footer, nav {
-    display: none; }
-
-  a[href]:after {
-    content: ""; } }
 
 /*# sourceMappingURL=style.css.map */
