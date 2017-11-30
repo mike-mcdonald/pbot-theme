@@ -6346,4 +6346,11 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+@media print {
+  header, footer, nav {
+    display: none; }
+
+  a[href]:after {
+    content: ""; } }
+
 /*# sourceMappingURL=style.css.map */

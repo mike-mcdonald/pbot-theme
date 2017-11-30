@@ -67,3 +67,15 @@ p:last-child,
     margin-top: 0;
   }
 }
+
+// Don't print any extraneous stuff
+@media print {
+  header, footer, nav {
+    display: none;
+  }
+
+  a[href]:after {
+    content: "";
+  }
+}
+
