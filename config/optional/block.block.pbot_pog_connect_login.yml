@@ -1,0 +1,28 @@
+uuid: 033e3c23-e9f4-4259-b001-6a2f4fa21554
+langcode: en
+status: true
+dependencies:
+  module:
+    - pog_connect
+    - user
+  theme:
+    - pbot
+id: pog_connect_login
+theme: pbot
+region: navbar_end
+weight: 0
+provider: null
+plugin: pog_connect_login
+settings:
+  id: pog_connect_login
+  label: 'POG Connect login'
+  provider: pog_connect
+  label_display: '0'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
