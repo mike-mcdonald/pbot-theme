@@ -6,7 +6,7 @@ dependencies:
     - system
   theme:
     - pbot
-id: breadcrumbs
+id: pbot_breadcrumbs
 theme: pbot
 region: header
 weight: -3

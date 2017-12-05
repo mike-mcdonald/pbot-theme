@@ -6,7 +6,7 @@ dependencies:
     - system
   theme:
     - pbot
-id: main_page_content
+id: pbot_main_page_content
 theme: pbot
 region: content
 weight: 0

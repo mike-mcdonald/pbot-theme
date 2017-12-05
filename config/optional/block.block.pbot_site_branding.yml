@@ -6,7 +6,7 @@ dependencies:
     - system
   theme:
     - pbot
-id: site_branding
+id: pbot_site_branding
 theme: pbot
 region: navbar_brand
 weight: 0

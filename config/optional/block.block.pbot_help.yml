@@ -5,7 +5,7 @@ dependencies:
     - help
   theme:
     - pbot
-id: help
+id: pbot_help
 theme: pbot
 region: help
 weight: 0

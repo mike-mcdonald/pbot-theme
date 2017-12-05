@@ -4,7 +4,7 @@ status: true
 dependencies:
   theme:
     - pbot
-id: tabs
+id: pbot_tabs
 theme: pbot
 region: header
 weight: 0

@@ -9,7 +9,7 @@ dependencies:
     - user
   theme:
     - pbot
-id: user_account_menu
+id: pbot_user_account_menu
 theme: pbot
 region: navbar_end
 weight: 0

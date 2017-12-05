@@ -8,7 +8,7 @@ dependencies:
     - system
   theme:
     - pbot
-id: footer
+id: pbot_footer
 theme: pbot
 region: footer
 weight: 0

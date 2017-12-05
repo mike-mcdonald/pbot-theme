@@ -7,7 +7,7 @@ dependencies:
     - user
   theme:
     - pbot
-id: pog_connect_login
+id: pbot_pog_connect_login
 theme: pbot
 region: navbar_end
 weight: 0

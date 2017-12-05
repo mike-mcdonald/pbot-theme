@@ -6,7 +6,7 @@ dependencies:
     - system
   theme:
     - pbot
-id: messages
+id: pbot_messages
 theme: pbot
 region: highlighted
 weight: -3

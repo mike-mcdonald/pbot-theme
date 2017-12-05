@@ -8,7 +8,7 @@ dependencies:
     - system
   theme:
     - pbot
-id: main_navigation
+id: pbot_main_navigation
 theme: pbot
 region: navigation_collapsible
 weight: 0

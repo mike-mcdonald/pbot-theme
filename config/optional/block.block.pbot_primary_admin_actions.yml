@@ -3,7 +3,7 @@ status: true
 dependencies:
   theme:
     - pbot
-id: primary_admin_actions
+id: pbot_primary_admin_actions
 theme: pbot
 region: header
 weight: -3
