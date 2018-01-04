@@ -6029,6 +6029,9 @@ table .checkbox.form-no-label, table .radio.form-no-label {
 .form-actions .btn-group .btn {
   margin-right: 0; }
 
+.glyphicon {
+  font-family: 'Glyphicons Halflings' !important; }
+
 /**
  * Icon styles.
  */
@@ -6313,6 +6316,13 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed {
     .ui-autocomplete .ui-menu-item.ui-state-active, .ui-autocomplete .ui-menu-item.ui-state-focus {
       background: #337ab7;
       color: #fff; }
+
+.ui-front {
+  z-index: 1050; }
+
+button.ui-dialog-titlebar-close.glyphicon {
+  border: none;
+  background: inherit; }
 
 @media print {
   header,

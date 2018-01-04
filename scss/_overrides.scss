@@ -17,6 +17,7 @@
 
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
+@import "jquery-ui/dialog";
 
 // custom printing styles.
 @import "print/print";
@@ -69,4 +70,8 @@ p:last-child,
   &:first-child {
     margin-top: 0;
   }
+}
+
+.glyphicon {
+	font-family: 'Glyphicons Halflings' !important;
 }

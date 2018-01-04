@@ -1,0 +1,12 @@
+// overrides for jQuery UI dialog-related stuff
+
+// this is the level of the gray background
+// jQuery adds one to this for the dialog window
+.ui-front {
+	z-index: $zindex-modal;
+}
+
+button.ui-dialog-titlebar-close.glyphicon {
+    border: none;
+    background: inherit;
+}
