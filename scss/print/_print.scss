@@ -2,7 +2,8 @@
 @media print {
   header,
   footer,
-  nav {
+  nav,
+  .contextual {
     display: none;
   }
   a[href]:after {
