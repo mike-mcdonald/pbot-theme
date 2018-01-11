@@ -6325,7 +6325,8 @@ button.ui-dialog-titlebar-close.glyphicon {
   header,
   footer,
   nav,
-  .contextual {
+  .breadcrumb,
+  .contextual .trigger {
     display: none; }
 
   a[href]:after {
@@ -6336,6 +6337,9 @@ button.ui-dialog-titlebar-close.glyphicon {
 
   .field {
     page-break-inside: avoid; } }
+@media print and (max-width: 150mm) and (orientation: portrait) {
+  .field {
+    page-break-inside: initial; } }
 ol, ul {
   padding-left: 1.5em; }
   .popover ol:last-child, .popover ul:last-child {

@@ -3,7 +3,8 @@
   header,
   footer,
   nav,
-  .contextual {
+  .breadcrumb,
+  .contextual .trigger {
     display: none;
   }
   a[href]:after {
@@ -14,5 +15,11 @@
   }
   .field {
     page-break-inside: avoid;
+  }
+}
+
+@media print and (max-width: 150mm) and (orientation: portrait) {
+  .field {
+    page-break-inside: initial;
   }
 }
