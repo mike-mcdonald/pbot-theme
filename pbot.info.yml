@@ -24,3 +24,7 @@ regions:
 libraries:
   - 'pbot/global-styling'
   - 'pbot/bootstrap-scripts'
+
+libraries-extend:
+  core/drupal.dialog:
+    - pbot/jquery.ui.dialog

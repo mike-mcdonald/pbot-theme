@@ -6314,10 +6314,19 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed {
       background: #337ab7;
       color: #fff; }
 
+.ui-front {
+  z-index: 1050; }
+
+button.ui-dialog-titlebar-close.glyphicon {
+  border: none;
+  background: inherit; }
+
 @media print {
   header,
   footer,
-  nav {
+  nav,
+  .breadcrumb,
+  .contextual .trigger {
     display: none; }
 
   a[href]:after {
@@ -6326,14 +6335,12 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed {
   .alert {
     display: none; }
 
-  .region.region-content,
   .field {
     page-break-inside: avoid; }
 
   .block-content {
     margin-bottom: 10px; } }
 @media print and (max-width: 150mm) and (orientation: portrait) {
-  .region.region-content,
   .field {
     page-break-inside: initial; } }
 @page {
@@ -6372,5 +6379,8 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+.glyphicon {
+  font-family: 'Glyphicons Halflings' !important; }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,9 @@
 @media print {
   header,
   footer,
-  nav {
+  nav,
+  .breadcrumb,
+  .contextual .trigger {
     display: none;
   }
   a[href]:after {
@@ -11,7 +13,6 @@
   .alert {
     display: none;
   }
-  .region.region-content,
   .field {
     page-break-inside: avoid;
   }
@@ -21,7 +22,6 @@
 }
 
 @media print and (max-width: 150mm) and (orientation: portrait) {
-  .region.region-content,
   .field {
     page-break-inside: initial;
   }
