@@ -15,4 +15,19 @@
   .field {
     page-break-inside: avoid;
   }
+  .block-content {
+    margin-bottom: 10px;
+  }
+}
+
+@media print and (max-width: 150mm) and (orientation: portrait) {
+  .region.region-content,
+  .field {
+    page-break-inside: initial;
+  }
+}
+
+@page {
+  margin-left: 0.1in;
+  margin-right: 0.1in;
 }
