@@ -6325,7 +6325,8 @@ button.ui-dialog-titlebar-close.glyphicon {
   header,
   footer,
   nav,
-  .contextual {
+  .contextual,
+  .breadcrumb {
     display: none; }
 
   a[href]:after {
