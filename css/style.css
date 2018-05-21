@@ -7915,6 +7915,38 @@ body.toolbar-fixed.toolbar-vertical.toolbar-tray-open.toolbar-fixed .toolbar-tra
   width: 240px;
 }
 
+ul.dropbutton {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+}
+ul.dropbutton > li.collapse {
+  display: block;
+}
+ul.dropbutton > li {
+  position: relative;
+  float: left;
+}
+ul.dropbutton > li:hover, ul.dropbutton > li:focus, ul.dropbutton > li:active, ul.dropbutton > li.active {
+  z-index: 2;
+}
+ul.dropbutton > li:first-child:not(:last-child) > button {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: 0;
+}
+ul.dropbutton > li:not(:first-child):not(:last-child) > button {
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+}
+ul.dropbutton > li:last-child:not(:first-child) > button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-left: 0;
+}
+
 /**
  * jQuery UI autocomplete widget style overrides.
  *

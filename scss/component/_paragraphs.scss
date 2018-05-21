@@ -1,0 +1,42 @@
+// Styles to help with paragraph's stupid layout ideas
+
+ul.dropbutton {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  list-style-type: none;
+
+  > li.collapse {
+    display: block;
+  }
+  
+  > li {
+    position: relative;
+    float: left;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      z-index: 2;
+    }
+    &:first-child:not(:last-child) {
+      > button {
+        @include border-right-radius(0);
+        border-right: 0;
+      }
+    }
+    &:not(:first-child):not(:last-child) {
+      > button {
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+      }
+    }
+    &:last-child:not(:first-child) {
+      > button {
+        @include border-left-radius(0);
+        border-left: 0;
+      }
+    }
+  }
+}
