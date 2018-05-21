@@ -7706,6 +7706,11 @@ body.navbar-is-fixed-bottom {
   text-decoration: none;
 }
 
+.bs-region h2.block-title {
+  font-size: inherit;
+  font-weight: bold;
+}
+
 /**
  * Progress bar styles.
  */
