@@ -15,5 +15,6 @@
 {% set classes = [
   theme.settings.image_shape ? theme.settings.image_shape,
   theme.settings.image_responsive ? 'img-responsive',
+  'center-block',
 ] %}
 <img{{ attributes.addClass(classes) }} />
